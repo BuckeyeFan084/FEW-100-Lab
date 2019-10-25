@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Front End Web 100</title>
+    <title>Tip Calculator FEW100</title>
     
     
 </head>
@@ -12,55 +12,58 @@
     <header class="header">
         <h1>Tip Calculator</h1>
         <h2>Completely Free, no strings attached!</h2>
+        
+
     </header>
     <main class="main">
-            <div class="form-group">
-                    <h2><label for="number1">Enter the total amount of the bill...</label></h2>
-                    <input class="form-control"
-                           type="number"
-                           name="number1"
-                           id="number1">
-                </div>
+        <p> 
                 <h3 class="alert alert-info">
-                    <span id="answer">Total amount of the bill:</span>
+                    <span id="total-bill">Total amount of the bill:</span>
+                        
                     <div class="form-group">
                             <input class="form-control"
                                    type="number"
                                    name="number1"
                                    id="number1">
                         </div>
+                        
                 </h3>
 
-                <h3 class="alert alert-info">
-                        <span id="answer">Amount of the tip:</span>
-                        <div class="form-group">
-                                <input class="form-control"
-                                       type="number"
-                                       name="number1"
-                                       id="number1">
-                    </h3>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-secondary">10%</button>
-                    <button type="button" class="btn btn-secondary">15%</button>
-                    <button type="button" class="btn btn-secondary">20%</button>
-                  </div>
-                
-                  
-                
-        <p>
-            <br>
+                      <h3 class="alert alert-info">
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-secondary">10%</button>
+                                    <button type="button" class="btn btn-secondary">15%</button>
+                                    <button type="button" class="btn btn-secondary">20%</button>
+                                    <button type="button" class="btn btn-secondary">30%</button>
+                                  </div>
+                                </br>
+                            </br>
+                            <span id="tip-amount">Amount of the tip:</span>
+                                </br>
+                            <div class="form-group">
+                                    <input class="form-control"
+                                           type="number"
+                                           name="number1"
+                                           id="number1">
+                                </div>
+                        </h3>  
+                                
+                                 
+                        <div class="spinner-grow" role="status">
+                                <span class="sr-only">Loading...</span>
+                              </div>
             <h3 class="alert alert-info">
-                <span id="answer">Total amount of bill with the tip included:</span>
+                <span id="total-with-tip">Total amount of bill with the tip included:</span>
+                
+                  <div class="form-group">
+                        <input class="form-control"
+                               type="number"
+                               name="number1"
+                               id="number1">
             </h3>
+            
+        
         </p>
-        <div class="spinner-grow text-success" role="status">
-            <span class="sr-only">Loading...</span>
-          </div>
-          <div class="form-group">
-                <input class="form-control"
-                       type="number"
-                       name="number1"
-                       id="number1">
     </main>
 </body>
 

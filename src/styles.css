@@ -4,57 +4,86 @@
     background-color: rgb(148, 148, 250);
     background-size: 500px;
     background-position: top;
+    box-shadow: 2px 2px 3px rgb(77, 77, 77);
     text-shadow: 2px 2px 2px rgb(29, 29, 29);
     width: 450px;
     margin: 0%;
-    padding: 1px;
+    padding: 20px;
     
 }
 
 
 
 .body {
-    background-color: rgb(218, 218, 218);
+    
     width: 450px;
     margin-left: 10%;
     margin-top: 1%;
     margin-right: 0%;
     background-size: 75%;
-    box-shadow: 2px 2px 3px rgb(77, 77, 77);
     padding: 20px;
 
 
 }
 
-
+.main {
+    background-color: rgb(218, 218, 218);
+    background-size: 500px;
+    background-position: top;
+    box-shadow: 2px 2px 3px rgb(77, 77, 77);
+    width: 450px;
+    margin: 0%;
+    padding: 20px;
+}
 
 .form-group {
     padding-top: 5px;
+    margin:0%;
+    
 }
 
 .form-control {
     width: 200px;
     box-shadow: 1px 1px 3px rgb(68, 68, 68);
     align-content: center;
+    background-color: rgb(249, 250, 249);
+}
+
+.alert-info {
+ padding: 5px;
+ margin:0%;
+ 
+}
+
+.spinner-grow {
+    padding: 6px;
 }
 
 .btn-secondary {
     background-color: rgb(20, 134, 241);
     color: whitesmoke;
+    text-shadow: 1px 1px black;
     width: 10%;
     padding-bottom: 1px;
     float: left;
     margin: 3px;
     border-radius: 2px;
-    transition: background-color 1s;
-    transition: border-radius 1s;
+    transition: background-color 2s;
+    transition: border-radius 4s;
     box-shadow: 1px 1px 3px rgb(68, 68, 68);
-    opacity: 0.8;
+    opacity: 0.80;
     transition: 0.3s;
     align-content: center;
 
 }
 
-.btn-secondary:hover {
-    background-color: rgb(55, 55, 241); opacity: 1
+.btn-secondary:hover:hover {
+    background-color: rgb(55, 55, 241); opacity: 1;
+    box-shadow: 3px 3px 5px black;
+}
+
+.btn-secondary:onclick:onclick {
+    transition: background-color 4s;
+    background-color: blue;
+    
 }
