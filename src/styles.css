@@ -1,12 +1,12 @@
 .header {
-    color:rgb(255, 228, 212);
+    color:rgb(240, 235, 232);
     text-align: center;
-    background-color: rgb(148, 148, 250);
+    background-color: rgb(20, 134, 241);
     background-size: 500px;
     background-position: top;
-    box-shadow: 2px 2px 3px rgb(77, 77, 77);
+    box-shadow: 2px 2px 3px 1.25px rgb(77, 77, 77);
     text-shadow: 2px 2px 2px rgb(29, 29, 29);
-    width: 450px;
+    width: 400px;
     margin: 0%;
     padding: 20px;
     
@@ -16,10 +16,11 @@
 
 .body {
     
-    width: 450px;
+    width: 400px;
     margin-left: 10%;
     margin-top: 1%;
     margin-right: 0%;
+    margin-bottom: 1%;
     background-size: 75%;
     padding: 20px;
 
@@ -30,8 +31,9 @@
     background-color: rgb(218, 218, 218);
     background-size: 500px;
     background-position: top;
-    box-shadow: 2px 2px 3px rgb(77, 77, 77);
-    width: 450px;
+    box-shadow: 2px 2px 3px 1.25px rgb(77, 77, 77);
+    width: 400px;
+    height: 475px;
     margin: 0%;
     padding: 20px;
 }
@@ -39,6 +41,7 @@
 .form-group {
     padding-top: 5px;
     margin:0%;
+    align-content: center;
     
 }
 
@@ -47,23 +50,65 @@
     box-shadow: 1px 1px 3px rgb(68, 68, 68);
     align-content: center;
     background-color: rgb(249, 250, 249);
+    align-content: center;
 }
 
 .alert-info {
  padding: 5px;
  margin:0%;
+ align-content: center;
  
 }
 
 .spinner-grow {
     padding: 6px;
+    align-content: center;
 }
 
 .btn-secondary {
     background-color: rgb(20, 134, 241);
     color: whitesmoke;
     text-shadow: 1px 1px black;
-    width: 10%;
+    width: 11%;
+    padding-bottom: 1px;
+    float: center;
+    margin: 2px;
+    border-radius: 2px;
+    transition: background-color 2s;
+    transition: border-radius 4s;
+    box-shadow: 1px 1px 3px rgb(68, 68, 68);
+    opacity: 0.80;
+    transition: 0.3s;
+    align-content: center;
+    white-space: nowrap;
+    
+
+}
+
+.btn-secondary:hover:hover {
+    transition: background-color .65s;
+    background-color: rgb(55, 55, 241); opacity: 1;
+    box-shadow: 3px 3px 5px black;
+}
+
+.btn-secondary:active:active {
+    transition: background-color 1s;
+    width: 65px;
+    background-color: gray;
+    box-shadow: 2px 2px 4px blue;
+}
+
+.btn-secondary:focus:focus {
+    transition: background-color 1s;
+    background-color: gray;
+    box-shadow: 3px 3px 5px blue;
+}
+
+.btn-secondary-split {
+    background-color: rgb(20, 134, 241);
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+    width: 18%;
     padding-bottom: 1px;
     float: left;
     margin: 3px;
@@ -74,16 +119,25 @@
     opacity: 0.80;
     transition: 0.3s;
     align-content: center;
+    white-space: nowrap;
+    
 
 }
 
-.btn-secondary:hover:hover {
+.btn-secondary-split:hover:hover {
     background-color: rgb(55, 55, 241); opacity: 1;
     box-shadow: 3px 3px 5px black;
 }
 
-.btn-secondary:onclick:onclick {
-    transition: background-color 4s;
-    background-color: blue;
-    
+.btn-secondary-split:active:active {
+    transition: background-color 1s;
+    width: 65px;
+    background-color: gray;
+    box-shadow: 2px 2px 4px blue;
+}
+
+.btn-secondary-split:focus:focus {
+    transition: background-color 1s;
+    background-color: gray;
+    box-shadow: 3px 3px 5px blue;
 }
