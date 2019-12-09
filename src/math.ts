@@ -19,7 +19,7 @@ multiplyButton1.addEventListener('click', function () {
     const n1 = number1El.valueAsNumber;
     const n2 = number1E2.valueAsNumber;
 
-    const answer = tipAmount(n1);
+    const answer = totalBill(n1);
 
     answerEl.innerText = answer.toString();
 });
