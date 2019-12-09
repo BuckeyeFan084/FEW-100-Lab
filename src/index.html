@@ -18,7 +18,7 @@
     <main class="main">
         <p>
             <h3 class="alert alert-info">
-                <span id="totalBill">Amount of the bill:</span>
+                Amount of the bill:
 
                 <div class="form-group">
                     <input class="form-control"
@@ -26,7 +26,7 @@
                            name="number1"
                            id="number1">
                 </div>
-
+                <span id="number1"></span>
             </h3>
 
             <h3 class="alert alert-info">
@@ -34,64 +34,73 @@
                      role="group"
                      aria-label="Basic example">
                     <button type="button"
-                            class="btn btn-secondary">10%</button>
+                            class="btn btn-secondary"
+                            id="tipAmnt1"
+                            onclick="tipAmnt1()">10%</button>
                     <button type="button"
-                            class="btn btn-secondary">15%</button>
+                            class="btn btn-secondary"
+                            id="tipAmnt2">15%</button>
                     <button type="button"
-                            class="btn btn-secondary">20%</button>
+                            class="btn btn-secondary"
+                            id="tipAmnt3">20%</button>
                     <button type="button"
-                            class="btn btn-secondary">30%</button>
+                            class="btn btn-secondary"
+                            id="tipAmnt4">30%</button>
+
+
                 </div>
                 </br>
 
-                <span id="answer">Amount of the tip:</span>
+                <h3 class="alert alert-info">Amount of the tip:
+                    </br>
+                    <div class="form-group">
+                        <input class="form-control"
+                               type="number"
+                               name="multiply"
+                               value="multiply!"
+                               id="multiply">
+                    </div>
+                    <span id="tipAmnt1"></span>
+                </h3>
+
+
+
+                <h3 class="alert alert-info">
+                    <span id="total-with-tip">Total bill amount with tip:</span>
+
+                    <div class="form-group">
+                        <input class="form-control"
+                               type="number"
+                               name="totalWithTip"
+                               id="totalWithTip"></div>
+                </h3>
+
+                <h3 class="alert alert-info">
+                    <span id="total-with-tip">Split the bill between:</span>
+
+                    <div class="form-group">
+                        <input class="form-control"
+                               type="number"
+                               name="number1"
+                               id="number1"></div>
+                </h3>
                 </br>
-                <div class="form-group">
-                    <input class="form-control"
-                           type="number"
-                           name="number1"
-                           id="number1">
-                </div>
-            </h3>
+                <button type="button"
+                        class="btn btn-secondary-split">Split Bill</button>
+                </br>
+                </br>
 
 
+                <h3 class="alert alert-info">
 
-            <h3 class="alert alert-info">
-                <span id="total-with-tip">Total bill amount with tip:</span>
+                    <span id="total-with-tip">Bill amount per person:</span>
 
-                <div class="form-group">
-                    <input class="form-control"
-                           type="number"
-                           name="number1"
-                           id="number1"></div>
-            </h3>
-
-            <h3 class="alert alert-info">
-                <span id="total-with-tip">Split the bill between:</span>
-
-                <div class="form-group">
-                    <input class="form-control"
-                           type="number"
-                           name="number1"
-                           id="number1"></div>
-            </h3>
-            </br>
-            <button type="button"
-                    class="btn btn-secondary-split">Split Bill</button>
-            </br>
-            </br>
-
-
-            <h3 class="alert alert-info">
-
-                <span id="total-with-tip">Bill amount per person:</span>
-
-                <div class="form-group">
-                    <input class="form-control"
-                           type="number"
-                           name="number1"
-                           id="number1"></div>
-            </h3>
+                    <div class="form-group">
+                        <input class="form-control"
+                               type="number"
+                               name="number1"
+                               id="number1"></div>
+                </h3>
 
         </p>
 

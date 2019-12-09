@@ -1,25 +1,31 @@
-export function totalBill(number1: number) {
-    return number1 * .10;
+export function amntOfTip(number1: number, tipAmnt1: number) {
+    return number1 * tipAmnt1;
 }
 
+export function totalBill(number1: number) {
+    return number1;
+}
 
+export function totalWithTip(number1: number, tipAmnt1: number) {
+    return number1 + tipAmnt1;
+}
 
+export function amntOfBill(number1: number) {
+    return number1;
+}
 
+export function tipAmnt(tipAmnt1: number) {
+    return tipAmnt1 * .10;
+}
 
+export function tipAmnt2(tipAmnt1: number) {
+    return tipAmnt1 * .15;
+}
 
-const number1El = document.getElementById('number1') as HTMLInputElement;
-const number1E2 = document.getElementById('number2') as HTMLInputElement;
-const multiplyButton1 = document.getElementById('tipAmount') as HTMLInputElement;
+export function tipAmnt3(tipAmnt1: number) {
+    return tipAmnt1 * .20;
+}
 
-const answerEl = document.getElementById('answer') as HTMLSpanElement;
-
-// tslint:disable-next-line: only-arrow-functions
-multiplyButton1.addEventListener('click', function () {
-
-    const n1 = number1El.valueAsNumber;
-    const n2 = number1E2.valueAsNumber;
-
-    const answer = totalBill(n1);
-
-    answerEl.innerText = answer.toString();
-});
+export function tipAmnt4(tipAmnt1: number) {
+    return tipAmnt1 * .30;
+}

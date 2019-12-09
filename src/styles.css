@@ -45,7 +45,7 @@
     
 }
 
-.form-control {
+.form-control, .tipAmnt {
     width: 200px;
     box-shadow: 1px 1px 3px rgb(68, 68, 68);
     align-content: center;
@@ -76,7 +76,7 @@
     border-radius: 2px;
     transition: background-color 2s;
     transition: border-radius 4s;
-    box-shadow: 2px 2px 4px rgb(68, 68, 68);
+    box-shadow: 1px 1px 3px rgb(68, 68, 68);
     opacity: 0.80;
     transition: 0.3s;
     align-content: center;
@@ -88,7 +88,7 @@
 .btn-secondary:hover:hover {
     transition: background-color .65s;
     background-color: rgb(55, 55, 241); opacity: 1;
-    box-shadow: 0;
+    box-shadow: 3px 3px 5px black;
 }
 
 .btn-secondary:active:active {
@@ -131,7 +131,7 @@
 
 .btn-secondary-split:active:active {
     transition: background-color 1s;
-    width: 65px;
+    width: 80px;
     background-color: gray;
     box-shadow: 2px 2px 4px blue;
 }
