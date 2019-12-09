@@ -88,7 +88,7 @@
 .btn-secondary:hover:hover {
     transition: background-color .65s;
     background-color: rgb(55, 55, 241); opacity: 1;
-    box-shadow: 3px 3px 5px black;
+    box-shadow: 0;
 }
 
 .btn-secondary:active:active {
