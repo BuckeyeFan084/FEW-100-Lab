@@ -76,7 +76,7 @@
     border-radius: 2px;
     transition: background-color 2s;
     transition: border-radius 4s;
-    box-shadow: 1px 1px 3px rgb(68, 68, 68);
+    box-shadow: 2px 2px 4px rgb(68, 68, 68);
     opacity: 0.80;
     transition: 0.3s;
     align-content: center;
